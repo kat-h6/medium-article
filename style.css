@@ -1,0 +1,83 @@
+body {
+  background-color: #f6f5f5;
+  color: rgb(100, 100, 100);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  background-image:
+  linear-gradient(to bottom, rgba(162, 222, 208, 1), rgba(134, 226, 213, 1));
+  color: white;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  padding: 4px;
+}
+
+a:hover {
+  background-image:
+  linear-gradient(to bottom, rgba(22, 160, 133, 1), rgba(27, 163, 156, 1));
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 24px;
+}
+
+#banner {
+  width: 1400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 48px;
+  background-image:
+  linear-gradient(to bottom, rgba(245,246,252,0.48), rgba(117,240,240,0.70)),
+  url("https://source.unsplash.com/random/1400x400");
+  background-size: cover;
+  color: white;
+}
+
+#banner p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#banner h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+}
+
+.card {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
