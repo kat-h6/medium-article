@@ -29,13 +29,12 @@ a:hover {
 
 .container {
   width: 700px;
-  margin: 0 auto;
+  margin: 50px auto;
   text-align: left;
   padding-top: 24px;
 }
 
 #banner {
-  width: 1400px;
   height: 400px;
   margin: 0 auto;
   padding: 48px;
